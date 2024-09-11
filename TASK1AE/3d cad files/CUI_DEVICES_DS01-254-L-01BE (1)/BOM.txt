@@ -1,0 +1,3 @@
+3DX_CUI_DEVICES_Supplier: CUI Devices
+3DX_CUI_DEVICES_Description: 1 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch
+3DX_CUI_DEVICES_Model Number: DS01-254-L-01BE

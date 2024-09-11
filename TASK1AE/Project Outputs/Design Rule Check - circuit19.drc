@@ -1,0 +1,60 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\modes\OneDrive\Documents\pcb task ALEXEAGLES\TASK1AE\circuit19.PcbDoc
+Date     : 9/10/2024
+Time     : 10:07:50 PM
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=1mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad R1-1(13.589mm,12.675mm) on Multi-Layer And Track (13.589mm,9.027mm)(13.589mm,12.04mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad R1-2(13.589mm,1.626mm) on Multi-Layer And Track (13.589mm,2.261mm)(13.589mm,5.471mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :2
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room circuit19 (Bounding Region = (178.943mm, 26.924mm, 204.724mm, 42.291mm) (InComponentClass('circuit19'))
+   Violation between Room Definition: Between Room circuit19 (Bounding Region = (178.943mm, 26.924mm, 204.724mm, 42.291mm) (InComponentClass('circuit19')) And Small Component  -terminal block (-1.6mm,4.089mm) on Top Layer 
+   Violation between Room Definition: Between Room circuit19 (Bounding Region = (178.943mm, 26.924mm, 204.724mm, 42.291mm) (InComponentClass('circuit19')) And Small Component D1-LED 3V (4.978mm,14.021mm) on Top Layer 
+   Violation between Room Definition: Between Room circuit19 (Bounding Region = (178.943mm, 26.924mm, 204.724mm, 42.291mm) (InComponentClass('circuit19')) And Small Component R1-330 ohm (13.589mm,12.802mm) on Top Layer 
+   Violation between Room Definition: Between Room circuit19 (Bounding Region = (178.943mm, 26.924mm, 204.724mm, 42.291mm) (InComponentClass('circuit19')) And Small Component S1-SWITCH (17.45mm,14.275mm) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 6
+Waived Violations : 0
+Time Elapsed        : 00:00:01
